@@ -9,27 +9,19 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.erudio</groupId>
-	<artifactId>greeting-service</artifactId>
+	<artifactId>erudio-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>greeting-service</name>
-	<description>Demo project for Spring Boot</description>
+	<name>erudio-config-server</name>
+	<description>erudio-config-server</description>
 	<properties>
 		<java.version>17</java.version>
-		<kotlin.version>1.6.10</kotlin.version>
+		<kotlin.version>1.7.10</kotlin.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.module</groupId>
-			<artifactId>jackson-module-kotlin</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.jetbrains.kotlin</groupId>
@@ -39,10 +31,10 @@
 			<groupId>org.jetbrains.kotlin</groupId>
 			<artifactId>kotlin-stdlib-jdk8</artifactId>
 		</dependency>
-<!--		<dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
-		</dependency>-->
+			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
